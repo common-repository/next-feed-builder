@@ -1,0 +1,382 @@
+/*Global css start here*/
+/*Global css start here*/
+.nx-container { width: 100%; margin-right: auto; margin-left: auto; }
+
+@media (min-width: 576px) { .nx-container { max-width: 540px; } }
+
+@media (min-width: 768px) { .nx-container { max-width: 720px; } }
+
+@media (min-width: 992px) { .nx-container { max-width: 960px; } }
+
+@media (min-width: 1200px) { .nx-container { max-width: 1170px; } }
+
+.nx-row { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.nx-col, .nx-col-1, .nx-col-10, .nx-col-11, .nx-col-12, .nx-col-2, .nx-col-3, .nx-col-4, .nx-col-5, .nx-col-6, .nx-col-7, .nx-col-8, .nx-col-9, .nx-col-auto, .nx-col-lg, .nx-col-lg-1, .nx-col-lg-10, .nx-col-lg-11, .nx-col-lg-12, .nx-col-lg-2, .nx-col-lg-3, .nx-col-lg-4, .nx-col-lg-5, .nx-col-lg-6, .nx-col-lg-7, .nx-col-lg-8, .nx-col-lg-9, .nx-col-lg-auto, .nx-col-md, .nx-col-md-1, .nx-col-md-10, .nx-col-md-11, .nx-col-md-12, .nx-col-md-2, .nx-col-md-3, .nx-col-md-4, .nx-col-md-5, .nx-col-md-6, .nx-col-md-7, .nx-col-md-8, .nx-col-md-9, .nx-col-md-auto, .nx-col-sm, .nx-col-sm-1, .nx-col-sm-10, .nx-col-sm-11, .nx-col-sm-12, .nx-col-sm-2, .nx-col-sm-3, .nx-col-sm-4, .nx-col-sm-5, .nx-col-sm-6, .nx-col-sm-7, .nx-col-sm-8, .nx-col-sm-9, .nx-col-sm-auto, .nx-col-xl, .nx-col-xl-1, .nx-col-xl-10, .nx-col-xl-11, .nx-col-xl-12, .nx-col-xl-2, .nx-col-xl-3, .nx-col-xl-4, .nx-col-xl-5, .nx-col-xl-6, .nx-col-xl-7, .nx-col-xl-8, .nx-col-xl-9, .nx-col-xl-auto { position: relative; width: 100%; min-height: 1px; padding-right: 10px; padding-left: 10px; }
+
+@media (min-width: 576px) { .nx-col-sm-12 { -webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
+
+@media (min-width: 576px) { .nx-col-sm-11 { -webkit-box-flex: 0; -ms-flex: 0 0 91.666667%; flex: 0 0 91.666667%; max-width: 91.666667%; } }
+
+@media (min-width: 576px) { .nx-col-sm-10 { -webkit-box-flex: 0; -ms-flex: 0 0 83.333333%; flex: 0 0 83.333333%; max-width: 83.333333%; } }
+
+@media (min-width: 576px) { .nx-col-sm-9 { -webkit-box-flex: 0; -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; } }
+
+@media (min-width: 576px) { .nx-col-sm-8 { -webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
+
+@media (min-width: 576px) { .nx-col-sm-7 { -webkit-box-flex: 0; -ms-flex: 0 0 66.666667%; flex: 0 0 66.666667%; max-width: 66.666667%; } }
+
+@media (min-width: 576px) { .nx-col-sm-6 { -webkit-box-flex: 0; -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; } }
+
+@media (min-width: 576px) { .nx-col-sm-5 { -webkit-box-flex: 0; -ms-flex: 0 0 41.666667%; flex: 0 0 41.666667%; max-width: 41.666667%; } }
+
+@media (min-width: 576px) { .nx-col-sm-4 { -webkit-box-flex: 0; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 33.333333%; } }
+
+@media (min-width: 576px) { .nx-col-sm-3 { -webkit-box-flex: 0; -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; } }
+
+@media (min-width: 576px) { .nx-col-sm-2 { -webkit-box-flex: 0; -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; } }
+
+@media (min-width: 576px) { .nx-col-sm-1 { -webkit-box-flex: 0; -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; } }
+
+@media (min-width: 768px) { .nx-col-md-12 { -webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
+
+@media (min-width: 768px) { .nx-col-md-11 { -webkit-box-flex: 0; -ms-flex: 0 0 91.666667%; flex: 0 0 91.666667%; max-width: 91.666667%; } }
+
+@media (min-width: 768px) { .nx-col-md-10 { -webkit-box-flex: 0; -ms-flex: 0 0 83.333333%; flex: 0 0 83.333333%; max-width: 83.333333%; } }
+
+@media (min-width: 768px) { .nx-col-md-9 { -webkit-box-flex: 0; -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; } }
+
+@media (min-width: 768px) { .nx-col-md-8 { -webkit-box-flex: 0; -ms-flex: 0 0 66.666667%; flex: 0 0 66.666667%; max-width: 66.666667%; } }
+
+@media (min-width: 768px) { .nx-col-md-7 { -ms-flex: 0 0 58.333333%; -webkit-box-flex: 0; flex: 0 0 58.333333%; max-width: 58.333333%; } }
+
+@media (min-width: 768px) { .nx-col-md-6 { -webkit-box-flex: 0; -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; } }
+
+@media (min-width: 768px) { .nx-col-md-5 { -webkit-box-flex: 0; -ms-flex: 0 0 41.666667%; flex: 0 0 41.666667%; max-width: 41.666667%; } }
+
+@media (min-width: 768px) { .nx-col-md-4 { -webkit-box-flex: 0; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 33.333333%; } }
+
+@media (min-width: 768px) { .nx-col-md-3 { -webkit-box-flex: 0; -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; } }
+
+@media (min-width: 768px) { .nx-col-md-2 { -webkit-box-flex: 0; -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; } }
+
+@media (min-width: 768px) { .nx-col-md-1 { -webkit-box-flex: 0; -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; } }
+
+@media (min-width: 992px) { .nx-col-lg-12 { -webkit-box-flex: 0; -ms-flex: 0 0 98%; flex: 0 0 98%; max-width: 98%; } }
+
+@media (min-width: 992px) { .nx-col-lg-10 { -webkit-box-flex: 0; -ms-flex: 0 0 83.333333%; flex: 0 0 83.333333%; max-width: 83.333333%; } }
+
+@media (min-width: 992px) { .nx-col-lg-9 { -webkit-box-flex: 0; -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; } }
+
+@media (min-width: 992px) { .nx-col-lg-8 { -webkit-box-flex: 0; -ms-flex: 0 0 66.666667%; flex: 0 0 66.666667%; max-width: 66.666667%; } }
+
+@media (min-width: 992px) { .nx-col-lg-7 { -ms-flex: 0 0 58.333333%; -webkit-box-flex: 0; flex: 0 0 58.333333%; max-width: 58.333333%; } }
+
+@media (min-width: 992px) { .nx-col-lg-6 { -webkit-box-flex: 0; -ms-flex: 0 0 48%; flex: 0 0 48%; max-width: 48%; } }
+
+@media (min-width: 992px) { .nx-col-lg-5 { -ms-flex: 0 0 41.666667%; -webkit-box-flex: 0; flex: 0 0 41.666667%; max-width: 41.666667%; } }
+
+@media (min-width: 992px) { .nx-col-lg-4 { -webkit-box-flex: 0; -ms-flex: 0 0 31.333333%; flex: 0 0 31.333333%; max-width: 31.333333%; } }
+
+@media (min-width: 992px) { .nx-col-lg-3 { -webkit-box-flex: 0; -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; } }
+
+@media (min-width: 992px) { .nx-col-lg-2 { -webkit-box-flex: 0; -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; } }
+
+@media (min-width: 992px) { .nx-col-lg-1 { -webkit-box-flex: 0; -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; } }
+
+.nx-col { -ms-flex-preferred-size: 0; flex-basis: 0; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%; }
+
+.nx-mr-auto, .nx-mx-auto { margin-right: auto !important; }
+
+.nx-ml-auto, .nx-mx-auto { margin-left: auto !important; }
+
+.nx-section-padding { padding: 50px 0px; }
+
+.nx-text-left { text-align: left; }
+
+.nx-text-right { text-align: right; }
+
+.nx-text-center { text-align: center; }
+
+.nx-media { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+
+.nx-media-body { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+
+.nx-btn-group, .nx-btn-group-vertical { position: relative; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; vertical-align: middle; }
+
+.nx-nav-tabs { border-bottom: 1px solid #dee2e6; }
+
+.nx-nav { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding-left: 0; margin-bottom: 0; list-style: none; }
+
+.nx-d-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+/*Switch Section*/
+.themeDev-next-feed .nextaddons-switch-input { opacity: 0; z-index: 99; position: absolute; }
+
+.themeDev-next-feed img { border: none; max-width: 100%; height: auto; -o-object-fit: cover; object-fit: cover; vertical-align: middle; border-radius: 5px; }
+
+.themeDev-next-feed a { text-decoration: none; }
+
+.themeDev-next-feed a:active, .themeDev-next-feed a:focus { outline: 0; border: 0; -webkit-box-shadow: unset; box-shadow: unset; }
+
+.themeDev-next-feed .nextaddons-checkbox-switch { cursor: pointer; margin-bottom: 0px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 14px; font-family: 'Nunito', sans-serif; font-weight: 600; display: inline-block; line-height: 19px; width: auto; clear: both; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; font-weight: 700; }
+
+.themeDev-next-feed .nextaddons-checkbox-switch .nextaddons-label-switch { position: relative; overflow: hidden; width: 52px; height: 26px; display: inline-block; margin-left: 0px; cursor: pointer; }
+
+.themeDev-next-feed .nextaddons-checkbox-switch .nextaddons-label-switch:after, .themeDev-next-feed .nextaddons-checkbox-switch .nextaddons-label-switch:before { position: absolute; -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); font-weight: 700; font-size: .6875rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themeDev-next-feed .nextaddons-checkbox-switch .nextaddons-label-switch:before { content: attr(data-inactive); top: 0; left: 0; width: 100%; height: 100%; background-color: #FFFFFF; border: #000 solid 1px; border-radius: 26px; -webkit-border-radius: 26px; -ms-border-radius: 26px; text-indent: 24px; color: #000; }
+
+.themeDev-next-feed .nextaddons-switch-input:checked ~ .nextaddons-checkbox-switch .nextaddons-label-switch:before { border-color: #ff0099; text-indent: 52px; }
+
+.themeDev-next-feed .nextaddons-checkbox-switch .nextaddons-label-switch:after { position: absolute; top: 4px; left: 4px; display: block; content: attr(data-active); width: 18px; height: 18px; background-color: #000; border-radius: 100%; -webkit-border-radius: 100%; -ms-border-radius: 100%; -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); text-indent: -22px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.themeDev-next-feed .nextaddons-switch-input:checked ~ .nextaddons-checkbox-switch .nextaddons-label-switch:after { left: 30px; background-color: #ff0099; color: #ff0099; }
+
+/*End switch button*/
+.themeDev-next-feed .nxadd-content-inner { padding-bottom: 3rem; padding-top: 3rem; }
+
+.themeDev-next-feed .nxadd-content-inner.nx-inner-pt-0 { padding-top: 0; }
+
+.themeDev-next-feed .nx-pt-lt { padding-left: 20px; }
+
+.themeDev-next-feed .settings-content { padding-top: 30px; display: block; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; }
+
+.themeDev-next-feed .settings-content .nxadd-about-text { width: 800px; margin: 0 auto; }
+
+.themeDev-next-feed .settings-content .nxadd-about-text h1 { color: #383c5c; line-height: 1.5; margin: 0; padding-top: 35px; font-size: 25px; text-transform: uppercase; text-align: center; font-weight: 600; font-family: "Nunito", Sans-serif; letter-spacing: 1px; }
+
+.themeDev-next-feed .settings-content .nxadd-about-text .sub-headding { font-size: 16px; color: #5c5c5c; margin: 0; font-weight: 400; line-height: 24px; }
+
+.themeDev-next-feed .settings-content .nxadd-feature-section .feature-container { position: relative; max-width: 100%; margin: 0 auto; }
+
+.themeDev-next-feed .settings-content .nxadd-feature-section .feature-container .feature-addons-bannar { padding-bottom: 23px; }
+
+.themeDev-next-feed .settings-content .nxadd-feature-section .feature-container .feature-addons-bannar img { border-radius: 5px; }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts h1 { color: #383c5c; line-height: 1.5; margin: 0; padding-top: 35px; font-size: 30px; text-transform: uppercase; text-align: center; font-weight: 600; font-family: "Nunito", Sans-serif; letter-spacing: 1px; }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts .sub-headding { font-size: 16px; color: #5c5c5c; font-weight: 400; line-height: 30px; padding-bottom: 25px; margin: 0; }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts .nxadd-btn-group { width: 100%; padding-bottom: 43px; }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts .nxadd-btn-group .nxadd-btn { background: -webkit-linear-gradient(45deg, #5580ff 0%, #b721ff 100%); background: -o-linear-gradient(45deg, #5580ff 0%, #b721ff 100%); background: linear-gradient(45deg, #5580ff 0%, #b721ff 100%); color: #fff; padding: 14px 22px; border: none; margin: 0px 15px; font-size: 14px; cursor: pointer; letter-spacing: 1px; border-radius: 5px; -webkit-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; outline: 0; font-family: 'Nunito', sans-serif; }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts .nxadd-btn-group .nxadd-btn.nxadd-btn-control-enable { -webkit-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts .nxadd-btn-group .nxadd-btn.nxadd-btn-control-enable:hover { background: -webkit-linear-gradient(135deg, #5580ff 0%, #b721ff 100%); background: -o-linear-gradient(135deg, #5580ff 0%, #b721ff 100%); background: linear-gradient(-45deg, #5580ff 0%, #b721ff 100%); }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts .nxadd-btn-group .nxadd-btn.nxadd-btn-control-disable { background: -webkit-linear-gradient(45deg, #ff555d 0%, #aa0808 100%); background: -o-linear-gradient(45deg, #ff555d 0%, #aa0808 100%); background: linear-gradient(45deg, #ff555d 0%, #aa0808 100%); -webkit-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; }
+
+.themeDev-next-feed .settings-content .nxadd-import-layouts .nxadd-btn-group .nxadd-btn.nxadd-btn-control-disable:hover { background: -webkit-linear-gradient(135deg, #ff555d 0%, #aa0808 100%); background: -o-linear-gradient(135deg, #ff555d 0%, #aa0808 100%); background: linear-gradient(-45deg, #ff555d 0%, #aa0808 100%); }
+
+.themeDev-next-feed .settings-content .addons-pro h3 { color: #5129f2; font-size: 48px; font-weight: 700; margin-bottom: 25px; }
+
+.themeDev-next-feed .settings-content .addons-pro img { border-radius: 10px 10px 10px 10px; -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2); }
+
+.themeDev-next-feed .settings-content .addons-pro .sub-headding { color: #545454; font-size: 20px; margin-top: 0; font-weight: 400; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-admin-header { text-align: left; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-admin-header .nxadd-admin-header-icon { font-size: 45px; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-admin-header .nxadd-admin-header-title { font-size: 30px; font-weight: 600; margin-bottom: 20px; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-admin-header p { font-size: 16px; font-weight: 400; line-height: 24px; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-footer-pro-inner { padding-top: 5rem; padding-bottom: 5rem; border-top: 2px solid #7f7f7f; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-footer-pro-inner .nxadd-fetaure-pro-title { font-size: 28px; font-weight: 500; color: #000; margin-bottom: 2.5rem; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-footer-pro-inner .nxadd-button.nx-get-pro { font-size: 14px; color: #fff; background-color: #e619a7; padding: 18px 40px; display: inline-block; border-radius: 5px; font-weight: 600; -webkit-transition: all .4s; -o-transition: all .4s; transition: all .4s; }
+
+.themeDev-next-feed .settings-content .addons-pro .nxadd-footer-pro-inner .nxadd-button.nx-get-pro:hover { background-color: #cc008f; }
+
+.themeDev-next-feed .settings-content .themeDev-form { padding: 10px 0px 0; text-align: left !important; }
+
+.themeDev-next-feed .settings-content .themeDev-form label.block-label, .themeDev-next-feed .settings-content .themeDev-form label.inline-label, .themeDev-next-feed .settings-content .themeDev-form label.nextaddons-checkbox-switch { display: block; font-weight: bold; line-height: 2em; }
+
+.themeDev-next-feed .settings-content .themeDev-form label.inline-label { display: inline-block; }
+
+.themeDev-next-feed .settings-content .themeDev-form span.themedev-document-info { color: #bdbaba; font-style: italic; font-size: 12px; }
+
+.themeDev-next-feed .settings-content .themeDev-form span.themedev-document-info.block { display: block; }
+
+.themeDev-next-feed .settings-content .themeDev-form .themedev-submit { background-color: #0073aa; color: #FFFFFF; max-width: none; padding: 9px 20px; font-size: 14px; line-height: 14px; border-radius: 0px; -webkit-border-radius: 0px; -ms-border-radius: 0px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; display: inline-block; border: solid 2px transparent; border-top-color: transparent; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; -webkit-font-smoothing: antialiased; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; -webkit-transition: all 0.15s ease; -o-transition: all 0.15s ease; -moz-transition: all 0.15s ease; transition: all 0.15s ease; -webkit-box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35); box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35); }
+
+.themeDev-next-feed .settings-content .section-addons { width: 100%; display: inline-block; text-align: center; }
+
+.themeDev-next-feed .settings-content .section-addons .button { padding: 24px; border-radius: 3px; background: #2575fc; vertical-align: middle; -webkit-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; border: 0; -webkit-box-shadow: unset; box-shadow: unset; outline: none; line-height: 0; color: #fff; font-size: 17px; font-weight: 400; }
+
+.themeDev-next-feed .settings-content .section-addons .button:active { -webkit-transform: unset; -ms-transform: unset; transform: unset; }
+
+.themeDev-next-feed .settings-content .next-addons-services { display: block; }
+
+.themeDev-next-feed .settings-content .next-addons-services .next-addons-pt-2 { padding-top: 2rem; }
+
+.themeDev-next-feed .settings-content .next-addons-services.addons-wrapper { /*border: 1px solid #aaaaaa;*/ border-radius: 5px; background-color: #fff; padding-top: 10px; padding-bottom: 25px; }
+
+.themeDev-next-feed .settings-content .next-addons-services.addons-wrapper h3 { margin: 20px; text-align: left; font-size: 24px; line-height: 32px; font-weight: 400; color: #5580ff; font-family: 'Nunito', sans-serif; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-feature-video-button { padding: 14px 30px; background-color: #e824a3; display: inline-block; font-size: 15px; font-weight: 600; border-radius: 5px; color: #fff; -webkit-transition: all .4s; -o-transition: all .4s; transition: all .4s; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-feature-video-button:hover { background-color: #ff0099; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxad-feature-title { font-size: 20px; color: #000; font-weight: 600; -webkit-transition: all .4s; -o-transition: all .4s; transition: all .4s; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxad-feature-title:hover { color: #ff0095; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-review-inner { background-color: #fff; border-radius: 5px; padding: 40px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-review-inner i { font-size: 45px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-review-inner .nxadd-feature-title { font-size: 30px; font-weight: 600; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-review-inner p { font-size: 15px; font-weight: 400; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-review-inner .nxadd-button { background-color: #2575fc; color: #fff; padding: 14px 30px; display: inline-block; border-radius: 5px; font-size: 15px; font-weight: 400; -webkit-transition: all .4s; -o-transition: all .4s; transition: all .4s; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-review-inner .nxadd-button:hover { background-color: #0354df; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-feature-content { text-align: left; padding-bottom: 30px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-feature-content span { font-size: 45px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-feature-content .nxadd-feature-title { font-size: 30px; font-weight: 600; margin-bottom: 20px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-feature-content .feature-des { margin: 0; font-size: 16px; font-weight: 400; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-pro-feature { font-weight: 600; color: #2b1a85; font-size: 28px; margin-left: 10px; text-align: left; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper.pricing-button { display: block; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper.pricing-button .nxadd-admin-block { background-color: transparent; -webkit-box-shadow: unset; box-shadow: unset; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper.pricing-button .nxadd-admin-block .nxadd-admin-block-content { background-color: transparent; padding: 0; text-align: center; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper.pricing-button .nxadd-admin-block .nxadd-admin-block-content .nxadd-button { background-color: #ff0099; -webkit-box-shadow: 0px 8px 38px 0px rgba(16, 16, 16, 0.07); box-shadow: 0px 8px 38px 0px rgba(16, 16, 16, 0.07); font-size: 18px; border-radius: 30px; padding: 20px 30px; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block { background-color: #FFF; margin: 10px 0px 10px 0px; -webkit-box-shadow: 0px 8px 38px 0px rgba(16, 16, 16, 0.07); box-shadow: 0px 8px 38px 0px rgba(16, 16, 16, 0.07); border-radius: 5px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 30px 0 0 25px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-header .nxadd-admin-header-icon { background-color: #2575fc; border-radius: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; padding: 13px; color: #fff; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 25px; height: 25px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-header .nxadd-admin-header-icon .nx-icon { font-size: 20px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-header .nxadd-admin-header-title { padding: 0 20px; font-size: 17px; font-weight: 600; color: #4e4e4e; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-block-content { overflow: hidden; position: relative; padding: 0 1.5em; background-color: #fff; padding-left: 95px; padding-bottom: 30px; padding-top: 0px; text-align: left; border-radius: 5px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-block-content p { font-size: 15px; color: #707070; margin: 0px 0 20px 0; line-height: 22px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-block-content .nxadd-button { font-size: 14px; border-radius: 3px; -webkit-box-shadow: 0px 14px 15px 0px rgba(0, 5, 41, 0.08); box-shadow: 0px 14px 15px 0px rgba(0, 5, 41, 0.08); background-color: #2575fc; color: #fff; display: inline-block; padding: 14px 22px 14px; text-decoration: none; line-height: 1; -webkit-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; }
+
+.themeDev-next-feed .settings-content .next-addons-services .nxadd-admin-wrapper .nxadd-admin-block .nxadd-admin-block-content .nxadd-button:hover { background-color: #034ecf; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form { padding: 10px 20px 10px 20px; max-width: 29.333333%; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow { padding: 1rem; position: relative; display: block; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; line-height: 1; -ms-flex-item-align: end; align-self: flex-end; border-radius: 3px; -webkit-border-radius: 3px; -ms-border-radius: 3px; border: 1px solid #f3f2ff; -webkit-box-shadow: 0px 6px 20px 0px rgba(194, 204, 222, 0.3); box-shadow: 0px 6px 20px 0px rgba(194, 204, 222, 0.3); }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow label.nextaddons-checkbox-switch { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; font-weight: 700; cursor: pointer; margin-bottom: 0px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .nxaddons-info-link { display: block; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .nxaddons-info-link .nxaddons-demo-link { position: relative; text-decoration: none; color: #000; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .nxaddons-info-link .nxaddons-demo-link:hover .nxaddons-info-tooltip { opacity: 1; visibility: visible; -webkit-transform: translate(-50%, -150%); -ms-transform: translate(-50%, -150%); transform: translate(-50%, -150%); }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .nxaddons-info-link .nxaddons-info-tooltip { position: absolute; top: 0; left: 50%; padding: 2px 13px; font-size: 12px; text-align: center; letter-spacing: .5px; font-weight: 500; color: #fff; background-color: #000; -webkit-transform: translate(-50%, -100%); -ms-transform: translate(-50%, -100%); transform: translate(-50%, -100%); -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; z-index: 1; display: block; border-radius: 5px; opacity: 0; visibility: hidden; width: 130px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .nxaddons-info-link .nxaddons-info-tooltip:after { display: block; position: absolute; content: ''; bottom: 1px; left: 50%; height: 0; border: solid; border-width: 7px 7px 0 7px; border-color: transparent; border-top-color: #000; -webkit-transform: translate(-50%, 100%); -ms-transform: translate(-50%, 100%); transform: translate(-50%, 100%); }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .new-widget, .themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .pro-widget, .themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .upcoming-widget, .themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .update-widget { position: absolute; top: 0; left: 0; padding: 3px 8px; border-radius: 3px; background: -webkit-linear-gradient(45deg, #5580ff 0%, #b721ff 100%); background: -o-linear-gradient(45deg, #5580ff 0%, #b721ff 100%); background: linear-gradient(45deg, #5580ff 0%, #b721ff 100%); -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 5, 41, 0.1); box-shadow: 0px 3px 7px 0px rgba(0, 5, 41, 0.1); color: #fff; font-size: 10px; text-align: center; overflow: hidden; font-weight: 600; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow .upcoming-widget { top: 20px; left: 40%; width: 100px; }
+
+.themeDev-next-feed .settings-content .next-addons-services .themeDev-form .card-shadow.active { border-style: solid; border-width: 1px 1px 1px 1px; border-color: #f3f2ff; }
+
+.themeDev-next-feed .settings-content .api-data { display: block; text-align: center; }
+
+.themeDev-next-feed .settings-content .api-data h1 { padding: 35px 50px 0 50px; margin: 0; color: #383c5c; line-height: 1em; font-size: 38px; text-align: center; font-weight: 600; font-family: "Bree Serif"; }
+
+.themeDev-next-feed .settings-content .api-data .sub-headding { font-size: 18px; color: #5c5c5c; font-weight: 400; line-height: 1.6; padding-bottom: 25px; margin-bottom: 0; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form { margin-bottom: 30px; background-color: #f5f5f5; border-radius: 3px; -webkit-border-radius: 3px; -ms-border-radius: 3px; border: 1px solid rgba(0, 0, 0, 0.05); -webkit-box-shadow: 0px 6px 20px 0px rgba(194, 204, 222, 0.3); box-shadow: 0px 6px 20px 0px rgba(194, 204, 222, 0.3); padding: 0px; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-header { padding: 10px; border-radius: 3px 3px 0px 0px; -webkit-border-radius: 3px 3px 0px 0px; -ms-border-radius: 3px 3px 0px 0px; background-color: rgba(0, 0, 0, 0.03); cursor: pointer; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-header h4.api-head { margin: 0px; color: #0073aa; font-size: 14px; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-header h4.api-head.active { color: #f2295b; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-data-list { background-color: #FFFFFF; padding: 10px; display: none; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-data-list .api-block { margin-bottom: 10px; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-data-list .api-block label { font-weight: 700; margin-bottom: 7px; display: inline-block; font-size: 12px; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-data-list .api-block input { border-radius: 3px; -webkit-border-radius: 3px; -ms-border-radius: 3px; border: 1px solid rgba(0, 0, 0, 0.05); -webkit-box-shadow: 0px 6px 20px 0px rgba(194, 204, 222, 0.3); box-shadow: 0px 6px 20px 0px rgba(194, 204, 222, 0.3); background-color: #fff; color: #32373c; outline: 0; -webkit-transition: 50ms border-color ease-in-out; -o-transition: 50ms border-color ease-in-out; transition: 50ms border-color ease-in-out; display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; }
+
+.themeDev-next-feed .settings-content .api-data .themeDev-form .api-data-list.active { display: block; }
+
+.themeDev-next-feed .settings-content .addons-pro .next-addons-services .themeDev-form .card-shadow { height: 31px; background-position: center; background-repeat: no-repeat; background-size: cover; text-align: center; }
+
+.themeDev-next-feed .settings-content .addons-pro .next-addons-services .themeDev-form .card-shadow a { text-decoration: none; }
+
+.themeDev-next-feed .settings-content .addons-pro .next-addons-services .themeDev-form .card-shadow .pro-label { font-size: 20px; color: #0073aa; }
+
+.next-highlight-a { color: #aa8500; font-size: 14px; font-weight: bold; }
+
+.next-highlight-b { color: #a00; font-size: 12px; font-weight: 500; }
+
+/*Global css end here*/
+/* Tab*/
+.themeDev-next-feed { display: block; /*@include background-color( $back-color ); @include box-shadow( 1px 5px 17px #ccc );*/ margin: 15px 14px; }
+
+.themeDev-next-feed .themedev-content { display: block; }
+
+.themeDev-next-feed .themedev-content .nxadd-widget-content { background-color: #ffffff; border-radius: 0 0 5px 5px; -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1); }
+
+.themeDev-next-feed .header-settings { background-color: #FFFFFF; padding: 20px 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-radius: 5px 5px 0 0; }
+
+.themeDev-next-feed .header-settings .left-header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.themeDev-next-feed .header-settings .right-header { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; text-align: right; }
+
+.themeDev-next-feed .header-settings .right-header .button { padding: 24px; border-radius: 3px; background: #2575fc; vertical-align: middle; -webkit-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; border: 0; -webkit-box-shadow: unset; box-shadow: unset; outline: none; line-height: 0; color: #fff; font-size: 17px; font-weight: 400; }
+
+.themeDev-next-feed .header-settings .right-header .button:active { -webkit-transform: unset; -ms-transform: unset; transform: unset; }
+
+.themeDev-next-feed .header-settings .right-header .dashicons { margin-top: -9px; padding-right: 8px; }
+
+.themeDev-next-feed .header-settings h2.title { font-size: 24px; color: #000000; padding-left: 20px; margin: 0; letter-spacing: .5px; font-weight: 500; font-family: "Nunito", Sans-serif; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper { border-bottom: unset; padding-top: 0px; display: inline; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li { margin: 0; padding: 0; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li:not(:last-child) { margin-right: 10px; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li:focus { outline-color: #333; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab { background-color: transparent; color: #000; border: none; margin-left: 0; float: left; text-transform: uppercase; display: block; padding: 13px 35px; margin-right: 0px; font-size: 14px; letter-spacing: 1px; font-weight: 700; font-family: "Nunito", Sans-serif; -webkit-transition: all .4s; -o-transition: all .4s; transition: all .4s; border-radius: 0; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab:focus { border: 0px; -webkit-box-shadow: none; box-shadow: none; outline: none; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab.nav-item-pro { background-color: #f2295b; color: #fff; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab:hover { background-color: #fff; border-color: #fff; color: #f2295b; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li:first-child a { border-top-left-radius: 5px; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li:last-child a { border-top-right-radius: 5px; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab:fisrt-child { margin-left: .5em; }
+
+.themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab-active, .themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab-active:focus, .themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab-active:focus:active, .themeDev-next-feed .nav-settings ul.nav-tab-wrapper li a.nav-tab-active:hover { background: #ffffff !important; color: #f2295b !important; border-color: #ffffff; }
+
+/*Repeater Filed*/
+/*@import './element/repeaterField';*/

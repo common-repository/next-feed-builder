@@ -1,0 +1,101 @@
+.nxfeed-social {
+padding-left: 0; }
+.nxfeed-social > li {
+display: inline-block;
+list-style: none; }
+.nxfeed-social > li:not(:last-child) {
+margin-right: 10px; }
+.nxfeed-social > li > a {
+    display: block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    color: #3D5A98;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 14px; 
+}
+.nxfeed-social > li > a.nx-share-twitter {
+color: #1DA1F2; }
+.nxfeed-social > li > a.nx-share-pinterest {
+color: #E6001A; }
+.nxfeed-social > li > a.nx-share-linkedin {
+color: #1077B5; }
+.nxfeed-social > li > a.nx-share-link {
+color: #C31FFF; }
+.nxfeed-social > li > a > img {
+width: 15px;
+vertical-align: inherit; }
+.nxfeed-social > li > a:hover {
+background: #1077B5; }
+.nxfeed-social > li > a:hover i {
+color: #fff; }
+
+.next-post-title{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 0;
+}
+
+.next-post-excerpt{
+    color: #606060;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+}
+
+.next-feed-author .author-image img{
+    width: 22px;
+    object-fit: cover;
+}
+
+.next-feed-author .author-link{
+    color: #000000;
+    font-size: 15px;
+}
+
+.next-feed-categories a{
+    color: #fff;
+    background-color: #007bff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 5px;
+    line-height: 1;
+}
+
+.next-feed-tags ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.next-feed-tags ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.next-feed-tags ul li a{
+    padding: 5px 13px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    display: block;
+    color: #aaa;
+    transition: all .4s;
+}
+
+.next-feed-tags ul li a:hover{
+    background-color: #ff2c54;
+    border-color: #ff2c54;
+    color: #fff;
+}

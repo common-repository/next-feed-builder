@@ -1,0 +1,1 @@
+"use strict";function nexfeed_share_link(e){let t=e.getAttribute("data-link");t&&window.open(t,"woo_sharer","width=626,height=436")}function nexfeed_copy_link(e){var t=e.getAttribute("data-link");if(t){return null!=prompt("Copy link, then click OK.",t)&&docuent.execCommand("copy"),""}}
